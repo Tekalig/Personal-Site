@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-text .name {
+    color: #3498db;
+}
+
+.about, .myproject, .contact, .social {
+    margin: 50px 0;
+}
+
+.about img, .project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.contact button {
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #2980b9;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social ul li {
+    margin: 0 10px;
+}
+
+.social ul li a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f4f4f4;
+}
